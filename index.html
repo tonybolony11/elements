@@ -6,11 +6,82 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css//styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- NAVBAR -->
+    <!-- .container-fluid>.container>(header.container>nav.row>.col-md-12>{NAV STUFF FROM BS}) -->
+    <div class="container-fluid">
+        <header class="container">
+            <nav class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills navbar-right">
+                        <li role="presentation" class="active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="https://google.com">Google Us</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#info">Our Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="text-center">
+                    <span class="text-uppercase">Views</span>
+                    from
+                    <span class="text-uppercase">Fresno</span>
+                </h1>
+            </div>
+        </div>
+        <!-- .container>.row>(.col-md-6)*2 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-2 lead">
+                            <h2>City of Tomorrow</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatum harum ab, aspernatur repudiandae dicta, nesciunt blanditiis architecto sit eius qui vero quae officia explicabo placeat quod dolore officiis! Sint magni vitae, ex unde adipisci nulla cumque repellat asperiores enim voluptate illo quisquam porro facilis. Exercitationem ad laborum tenetur eum sapiente veniam dolores velit neque dignissimos magni. Assumenda recusandae excepturi corrupti corporis commodi delectus voluptas ab perferendis libero sint exercitationem nam repellat, dolore a ipsum facere ratione. Blanditiis ut sunt quasi dolores odio, voluptatum commodi debitis earum ducimus hic, soluta accusamus, corporis quas totam! Odit laboriosam maiores vel sequi est.</p>
+                            <button class="btn btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2>Why Us?</h2>
+                    <ul class="list-unstyled">
+                        <li>Reliable transportation</li>
+                        <li>Exciting new development</li>
+                        <li>Entertainment in your back yard</li>
+                        <li>And many more options...</li>
+                    </ul>
+
+                    <div class="well">
+                        <h3 class="text-lowercase">Quick Fact:</h3> 
+                        <strong>99% of people who live here have had their happiness levels increase at <span class="text-info">210%</span>.</strong>
+                    </div>
+                    <div class="alert alert-danger">
+                        <h6>Disclaimer:</h6>
+                        <del>stats above are not 100% accurate</del>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <footer class="container-fluid">
+        <small class="text-center">
+            Photo by Deva Darshan from Pexels
+        </small>
+    </footer>
 </body>
 </html>

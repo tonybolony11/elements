@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Inconsolata&display=swap');
+.jumbotron{
+    background-image: url('../imgs/dude.jpg');
+    background-size: cover;
+    height: 90vh;
+}
+h1{
+    size: 400px;
+    text-align: center;
+}
+footer{
+    height: 40px;
+    background-color: black;
+}

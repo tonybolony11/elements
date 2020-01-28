@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Inconsolata&display=swap');
+.jumbotron{
+   background-color: gray;
+    height: 30vh;
+    color: whitesmoke;
+}
+h1{
+    size: 400px;
+    text-align: center;
+}
+footer{
+	background-color:black;
+	height:70px;
+	width:100%;
+  }
+.footer-text{
+	margin:0;
+	padding-top:25px;
+	color:white;
+	margin-top: 0.1%;
+  }
+.fa-instagram{
+    display: inline-block;
+    height: 20px;
+
+}
+.social{
+    margin-top: -18px;
+	margin-left: 30%;
+	display: block;
+	float: left;
+}
+.fab{
+    font-size: 2em;
+    color: white;
+    margin-right: 8px;
+}
+.thumbnail{
+    background-color: teal;
+}
